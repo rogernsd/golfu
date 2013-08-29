@@ -29,6 +29,8 @@ PRODUCT_PACKAGES += \
 # Graphics 
 PRODUCT_PACKAGES += \
     copybit.msm7x27a \
+	gralloc.msm7x27a \
+	hwcomposer.msm7x27a \
     libtilerenderer
 
 # Audio
