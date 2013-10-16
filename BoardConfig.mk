@@ -89,7 +89,9 @@ BOARD_EGL_CFG := device/htc/golfu/proprietary/lib/egl/egl.cfg
 # Wi-Fi
 BOARD_WLAN_DEVICE := ath6kl
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
+BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_ath6kl
 BOARD_HOSTAPD_DRIVER := NL80211
+BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_ath6kl
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 WIFI_DRIVER_MODULE_PATH := "/system/lib/modules/ath6kl_sdio.ko"
 WIFI_DRIVER_MODULE_NAME := "ath6kl_sdio"
