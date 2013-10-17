@@ -45,6 +45,7 @@ TARGET_NO_RADIOIMAGE := true
 # Kernel
 BOARD_KERNEL_CMDLINE := no_console_suspend=1 console=null
 BOARD_KERNEL_BASE := 0x13000000
+BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x1200000
 
 # Additional libraries
 TARGET_PROVIDES_LIBAUDIO := true
